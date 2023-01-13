@@ -1,0 +1,153 @@
+body{
+    /* margin: 0; */
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* top-players-section */
+
+.container{
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+}
+
+.top-players{
+    
+}
+.top-players-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+    margin-top: 0;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+
+.player{
+    display: flex;
+    align-items: center;  
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+    
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+hr{
+    width: 807px;
+    margin-top: 30px;
+    margin-left: 0;
+}
+/* top-blogs */
+.top-blogs-title{
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    row-gap: 26px;
+}
+.blog{
+    display: flex;
+    gap: 16px;
+}
+.blog-font h4{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-font h4 span{
+    display: block;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+
+}
+.blog-font p span{
+    color: #562EFF;
+}
+.blog-font p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+/* second-section */
+.container1{
+    margin-top: 20px;
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+}
+
+.course-content{
+    display: flex;
+    gap: 53px;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.course span{
+    display: block;
+}
+.course h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.course p{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ED6B4F;
+}
+.lates-course-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+    margin-top: 0;
+}
+.course-item{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.rate{
+    margin-bottom: 6px;
+}
+.course-item input{
+    width: 70px;
+    height: 26px;
+    border-radius: 12px;
+    border: 0;
+    background-color: #FFE4E8;
+    color: #FF4A60;
+}
+.star{
+    display: flex;
+}
+.star img{
+    width: 12px;
+    height: 11px;
+}
